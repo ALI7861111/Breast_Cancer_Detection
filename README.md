@@ -5,16 +5,26 @@ This repository contains the code for a breast cancer detection model. It uses a
 # Dataset
 The dataset consists of 32 columns, including an ID, a diagnosis (M = malignant, B = benign), and 30 real-valued input features. The features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe the following characteristics of the cell nuclei present in the image:
 
-radius (mean of distances from center to points on the perimeter)
-texture (standard deviation of gray-scale values)
-perimeter
-area
-smoothness (local variation in radius lengths)
-compactness (perimeter^2 / area - 1.0)
-concavity (severity of concave portions of the contour)
-concave points (number of concave portions of the contour)
-symmetry
-fractal dimension ("coastline approximation" - 1)
+-radius (mean of distances from center to points on the perimeter)
+
+-texture (standard deviation of gray-scale values)
+
+-perimeter
+
+-area
+
+-smoothness (local variation in radius lengths)
+
+-compactness (perimeter^2 / area - 1.0)
+
+-concavity (severity of concave portions of the contour)
+
+-concave points (number of concave portions of the contour)
+
+-symmetry
+
+-fractal dimension ("coastline approximation" - 1)
+
 The mean, standard error, and "worst" or largest (mean of the three worst/largest values) of these features were computed for each image, resulting in 30 features.
 
 # model
